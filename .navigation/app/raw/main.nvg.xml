@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ula.com.adtviewer.activity.DashboardActivity"/>
+      <point      
+        x = "1440"      
+        y = "320"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ula.com.adtviewer.activity.PreferencesActivity"/>
+      <point      
+        x = "160"      
+        y = "160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ula.com.adtviewer.activity.LoginActivity"/>
+      <point      
+        x = "640"      
+        y = "160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ula.com.adtviewer.activity.STLViewActivity"/>
+      <point      
+        x = "640"      
+        y = "320"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ula.com.adtviewer.activity.ChangePasswordActivity"/>
+      <point      
+        x = "640"      
+        y = "320"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- stl viewer -->
+    <string name="app_name">ULA ADT Viewer</string>
+    <string name="hello">Por favor cargue el archivo STL.</string>
+    <string name="error_fetch_data">Fallo al leer el archivo STL.</string>
+    <string name="stl_load_progress_title">Cargando archivo STL...</string>
+    <string name="stl_load_progress_message">Por favor espere un momento.</string>
+    <!-- dialog -->
+    <string name="menu_open">Seleccionar archivo STL ...</string>
+    <string name="parent_directory">Directorio padre</string>
+    <string name="close_dialog">Cerrar ventana</string>
+    <!-- toggle button -->
+    <string name="toggleButtonMove">Mover</string>
+    <string name="toggleButtonRotate">Rotar</string>
+    <!-- preferences -->
+    <string name="app_pref">ULA ADT Viewer Preferencias</string>
+    <string name="red">Rojo</string>
+    <string name="green">Verde</string>
+    <string name="blue">Azul</string>
+    <string name="alpha">Alpha</string>
+    <string name="objectColor">Color de Objeto:</string>
+    <string name="displayAxis">Mostrar rejillas y ejes:</string>
+    <string name="grids">Rejillas:</string>
+    <string name="axes">Ejes:</string>
+    <string name="resetToDefault">Reiniciar a valores predeterminados</string>
+    <string name="closePreferences">Guardar &amp; Cerrar</string>
+    <string name="action_settings">Propiedades</string>
+
+    <!-- activity login -->
+    <string name="title_activity_login">ULA ADT Viewer</string>
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Clave</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_change_password">Cambiar contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="password">Clave</string>
+    <string name="loginWelcome">Ingreso de Credenciales</string>
+    <string name="error_invalid_password">La clave es muy corta</string>
+    <string name="error_incorrect_password">La clave es incorrecta</string>
+    <string name="error_field_required">El campo es obligatorio</string>
+
+    <!-- dashboard -->
+    <string name="title_dashboard">Bandeja de Examenes</string>
+    <string name="title_dashboard_login">ULA ADT Viewer</string>
+    <string name="logout">Salir</string>
+
+    <!-- change password -->
+    <string name="change_password_title">Cambiar Contraseña</string>
+    <string name="change_password_user">Usuario</string>
+    <string name="change_password_old_password">Contraseña anterior</string>
+    <string name="change_password_new_password1">Contraseña nueva</string>
+    <string name="change_password_new_password2">Repetir Contraseña nueva</string>
+    <string name="change_password_register_button">Actualizar</string>
+    <string name="change_password_back_button">Volver a pantalla de inicio</string>
+</resources>

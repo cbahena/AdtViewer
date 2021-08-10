@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background" >
+    
+    <TextView
+            android:id="@+id/appDashboardWelcome"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/title_dashboard"
+        	android:textSize="25dip"
+        	android:gravity="center"
+        	android:layout_marginTop="0dip"
+            android:textColor="@color/fontColor"
+            android:background="@color/dashbloadColor"/>
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:textColor="@color/exitColor"
+        android:textStyle="bold"
+        android:id="@+id/btnLogout"
+        android:clickable="true"
+        android:onClick="ButtonOnClick"
+        android:enabled="true"
+        android:background="@color/dashbloadColor"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView>
+
+
+
+</LinearLayout>
